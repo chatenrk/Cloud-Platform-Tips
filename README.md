@@ -53,6 +53,18 @@
 
 ### HANA CLI Related
 
+- HANA CLI Help
+  `hana-cli help`
+- HANA CLI Connect
+  `hana-cli connect`
+- Connect ServiceKey and service and prepare default-env.json
+  `hana-cli serviceKey [instance] [key]`
+
+  **where**
+
+  - instance is the name of the hana service instance created in cloud platform(via CLI or directly)
+  - key is the service created for the above service
+
 ### Github Related
 
 - Initialise a local git repository
