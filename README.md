@@ -29,26 +29,26 @@
 
   `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]`
 
-  **For example**
-  `cf create-service hana hana-shared test-hana-service`
-
   **where**
 
-  - hana refers to service marketplace service
-  - hana-shared is the plan relating to service above
-  - test-hana-service is the instance name which would get created on SAP cloud platform
+  - SERVICE refers to service marketplace service
+  - PLAN is the plan relating to service above
+  - SERVICE_INSTANCE is the instance name which would get created on SAP cloud platform
 
-- Create Service Key
+    **For example**
+    `cf create-service hana hana-shared test-hana-service`
+
+* Create Service Key
 
   `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]`
-
-  **For example**
-  `cf create-service-key test-hana-service default`
 
   **where**
 
   - SERVICE_INSTANCE is the name of service instance which was created above
   - SERVICE_KEY is the name of the service key
+
+  **Example**
+  `cf create-service-key test-hana-service default`
 
 ### HANA CLI Related
 
