@@ -39,10 +39,12 @@
   - test-hana-service is the instance name which would get created on SAP cloud platform
 
 - Create Service Key
+
   `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]`
 
   **For example**
   `cf create-service-key test-hana-service default`
+
   **where**
 
   - SERVICE_INSTANCE is the name of service instance which was created above
