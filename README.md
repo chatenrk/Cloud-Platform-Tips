@@ -2,8 +2,45 @@
 
 **[Table of Contents]**
 
+- [Quick Access Commands](#quick-access-commands)
+  - [CF CLI Related](#cf-cli-related)
+  - [Github Related](#github-related)
 - [CF-CLI Tips](#cf-cli-tips)
-- [Bash Terminal Tips](#bash-terminal-tips) - [Trunc Script](#trunc-script)
+- [Bash Terminal Tips](#bash-terminal-tips)
+  - [Trunc Script](#trunc-script)
+
+## Quick Access Commands
+
+### CF CLI Related
+
+- Help for CF CLI
+  `cf --help (or) cf -h`
+- Login to cloud foundry
+  `cf login (or) cf l`
+- List all services
+  `cf services (or) cf s`
+- Create service
+  `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]`
+  **For example**
+  `cf create-service hana hana-shared test-hana-service`
+  **where**
+  hana refers to service marketplace service
+  hana-shared is the plan relating to service above
+  test-hana-service is the instance name which would get created on SAP cloud platform
+- Create Service Key
+
+### Github Related
+
+Initialise a local git repository
+`git init`
+Add all modified entries into the git repository
+`git add .`
+Commit changes
+`git commit -m "Commit Message"`
+Add remote github repository
+`git remote add origin <<insert github repository name here>>`
+Push changes to remote repository
+`git push -u origin master`
 
 ## CF-CLI Tips
 
