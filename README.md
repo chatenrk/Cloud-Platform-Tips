@@ -14,12 +14,19 @@
 ### CF CLI Related
 
 - Help for CF CLI
+
   `cf --help (or) cf -h`
+
 - Login to cloud foundry
+
   `cf login (or) cf l`
+
 - List all services
+
   `cf services (or) cf s`
+
 - Create service
+
   `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]`
 
   **For example**
