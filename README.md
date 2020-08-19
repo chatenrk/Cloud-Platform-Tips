@@ -26,24 +26,25 @@
   `cf create-service hana hana-shared test-hana-service`
 
   **where**
-  hana refers to service marketplace service
-  hana-shared is the plan relating to service above
-  test-hana-service is the instance name which would get created on SAP cloud platform
+
+  - hana refers to service marketplace service
+  - hana-shared is the plan relating to service above
+  - test-hana-service is the instance name which would get created on SAP cloud platform
 
 - Create Service Key
 
 ### Github Related
 
-Initialise a local git repository
-`git init`
-Add all modified entries into the git repository
-`git add .`
-Commit changes
-`git commit -m "Commit Message"`
-Add remote github repository
-`git remote add origin <<insert github repository name here>>`
-Push changes to remote repository
-`git push -u origin master`
+- Initialise a local git repository
+  `git init`
+- Add all modified entries into the git repository
+  `git add .`
+- Commit changes
+  `git commit -m "Commit Message"`
+- Add remote github repository
+  `git remote add origin <<insert github repository name here>>`
+- Push changes to remote repository
+  `git push -u origin master`
 
 ## CF-CLI Tips
 
