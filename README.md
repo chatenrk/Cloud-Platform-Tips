@@ -4,6 +4,7 @@
 
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
+  - [HANA CLI Related](#hana-cli-related)
   - [Github Related](#github-related)
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
@@ -35,10 +36,10 @@
   - PLAN is the plan relating to service above
   - SERVICE_INSTANCE is the instance name which would get created on SAP cloud platform
 
-    **For example**
-    `cf create-service hana hana-shared test-hana-service`
+  **Example**
+  `cf create-service hana hana-shared test-hana-service`
 
-* Create Service Key
+- Create Service Key
 
   `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]`
 
