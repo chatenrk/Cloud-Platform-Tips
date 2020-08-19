@@ -61,6 +61,14 @@
 
   `hana-cli connect`
 
+- Open database explorer
+
+  `hana-cli opendbx`
+
+- Check status of Hana Database
+
+  `hana-cli status`
+
 - Connect ServiceKey and service and prepare default-env.json
 
   `hana-cli serviceKey [instance] [key]`
