@@ -54,10 +54,15 @@
 ### HANA CLI Related
 
 - HANA CLI Help
+
   `hana-cli help`
+
 - HANA CLI Connect
+
   `hana-cli connect`
+
 - Connect ServiceKey and service and prepare default-env.json
+
   `hana-cli serviceKey [instance] [key]`
 
   **where**
