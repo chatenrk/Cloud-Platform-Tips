@@ -8,6 +8,8 @@
   - [Github Related](#github-related)
 - [SQL Commands](#sql-commands)
   - [Create User](#create-user)
+  - [Grant Role](#grant-role)
+- [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
   - [Trunc Script](#trunc-script)
@@ -139,6 +141,25 @@ CREATE ROLE SFLIGHT_CONTAINER_ACCESS;
 GRANT SELECT, SELECT METADATA ON SCHEMA SFLIGHT TO SFLIGHT_CONTAINER_ACCESS WITH GRANT OPTION;
 GRANT SFLIGHT_CONTAINER_ACCESS TO CUPS_SFLIGHT WITH ADMIN OPTION;
 
+```
+
+## XSA Quick references
+
+### Add resource to MTA.YAML
+
+Use the below sample code to add a new resource to MTA.YAML. This is helpful to add User provided services to an MTA Application
+
+- Existing Service
+
+```shell
+  # ------------------------------------------------------------
+  - name: <insert name of service>
+    # ------------------------------------------------------------
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: <name of service existing on cloud platform >
+    properties:
+      the-service-name: "${service-name}"
 ```
 
 ## CF-CLI Tips
