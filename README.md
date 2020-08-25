@@ -54,7 +54,10 @@
   `cf create-service-key test-hana-service default`
 
 - Create User Provided Service
-  `cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]`
+
+  ```shell
+  cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]
+  ```
 
   **where**
 
