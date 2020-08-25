@@ -6,7 +6,8 @@
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
   - [Github Related](#github-related)
-  - [SQL Commands](#sql-commands)
+- [SQL Commands](#sql-commands)
+  - [Create User](#create-user)
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
   - [Trunc Script](#trunc-script)
@@ -101,7 +102,18 @@
 
   `git push -u origin master`
 
-### SQL Commands
+## SQL Commands
+
+### Create user
+
+Create a user via SQL command. This is especially helpful when technical users are needed to be created, and grnats need to be done for a User provided service to work and provide cross-schema access
+
+```shell
+CREATE USER CUPS_SFLIGHT PASSWORD "<Password>" SET PARAMETER CLIENT = '001' SET USERGROUP DEFAULT;
+ALTER USER CUPS_SFLIGHT DISABLE PASSWORD LIFETIME;
+GRANT SELECT ON SCHEMA SFLIGHT TO CUPS_SFLIGHT WITH GRANT OPTION;
+GRANT SELECT METADATA ON SCHEMA SFLIGHT to CUPS_SFLIGHT WITH GRANT OPTION;
+```
 
 ## CF-CLI Tips
 
