@@ -53,6 +53,18 @@
   **Example**
   `cf create-service-key test-hana-service default`
 
+- Create User Provided Service
+  `cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]`
+
+  **where**
+
+  - SERVICE_INSTANCE is the name of service instance which needs to be created
+  - CREDENTIALS is a JSON object, sample JSON as below
+
+  ```shell
+  {\"user\":\"CUPS_SFLIGHT\",\"password\":\"<Password>\",\"driver\":\"com.sap.db.jdbc.Driver\",\"tags\":[\"hana\"] , \"schema\" : \"SFLIGHT\" }"
+  ```
+
 ### HANA CLI Related
 
 - HANA CLI Help
