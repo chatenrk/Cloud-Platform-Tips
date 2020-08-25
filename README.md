@@ -6,6 +6,7 @@
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
   - [Github Related](#github-related)
+  - [SQL Commands](#sql-commands)
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
   - [Trunc Script](#trunc-script)
@@ -99,6 +100,8 @@
 - Push changes to remote repository
 
   `git push -u origin master`
+
+### SQL Commands
 
 ## CF-CLI Tips
 
