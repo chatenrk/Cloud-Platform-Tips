@@ -27,14 +27,6 @@
 | Create Service Key           | `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which was created above <br> - SERVICE_KEY is the name of the service key <br> **Example** <br> `cf create-service-key test-hana-service default`                                                                                                                                        |
 | Create User Provided Service | `cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> `{\"user\":\"CUPS_SFLIGHT\",\"password\":\"<Password>\",\"driver\":\"com.sap.db.jdbc.Driver\",\"tags\":[\"hana\"] , \"schema\" : \"SFLIGHT\" }"` |
 
-- ```shell
-
-  ```
-
-  ```shell
-
-  ```
-
 ### HANA CLI Related
 
 - HANA CLI Help
@@ -64,25 +56,13 @@
 
 ### Github Related
 
-- Initialise a local git repository
-
-  `git init`
-
-- Add all modified entries into the git repository
-
-  `git add .`
-
-- Commit changes
-
-  `git commit -m "Commit Message"`
-
-- Add remote github repository
-
-  `git remote add origin <<insert github repository name here>>`
-
-- Push changes to remote repository
-
-  `git push -u origin master`
+| Description                                      | Command                                                        |
+| ------------------------------------------------ | -------------------------------------------------------------- |
+| Initialise a local git repository                | `git init`                                                     |
+| Add all modified entries into the git repository | `git add .`                                                    |
+| Commit changes                                   | `git commit -m "Commit Message"`                               |
+| Add remote github repository                     | `git remote add origin <<insert github repository name here>>` |
+| Push changes to remote repository                | `git push -u origin master`                                    |
 
 ## SQL Commands
 
