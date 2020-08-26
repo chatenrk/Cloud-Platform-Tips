@@ -71,7 +71,7 @@ Use the below sample code to add a new resource to MTA.YAML. This is helpful to 
     parameters:
       service-name: <name of service existing on cloud platform >
     properties:
-      the-service-name: "${service-name}"
+      ServiceName_1: "${service-name}"
 ```
 
 ### Add UPS to default-env.json
@@ -79,7 +79,7 @@ Use the below sample code to add a new resource to MTA.YAML. This is helpful to 
 ```shell
 "user-provided": [
             {
-                "label": "user_provided",
+                "label": "user-provided",
                 "name": "CROSS_SCHEMA_SFLIGHT",
                 "tags": [],
                 "instance_name": "CROSS_SCHEMA_SFLIGHT",
