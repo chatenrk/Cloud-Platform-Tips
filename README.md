@@ -18,27 +18,21 @@
 
 ### CF CLI Related
 
-| Description            | Command                                                                                                                                                                                                                                                                                                                                 |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Help for CF CLI        | `cf --help (or) cf -h`                                                                                                                                                                                                                                                                                                                  |
-| Login to cloud foundry | `cf login (or) cf l`                                                                                                                                                                                                                                                                                                                    |
-| List all services      | `cf services (or) cf s`                                                                                                                                                                                                                                                                                                                 |
-| Create service         | `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> **Example** <br> `cf create-service hana hana-shared test-hana-service` |
-| Create Service Key     | `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which was created above <br> - SERVICE_KEY is the name of the service key <br> **Example** <br> `cf create-service-key test-hana-service default`                                   |
+| Description                  | Command                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Help for CF CLI              | `cf --help (or) cf -h`                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Login to cloud foundry       | `cf login (or) cf l`                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| List all services            | `cf services (or) cf s`                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Create service               | `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> **Example** <br> `cf create-service hana hana-shared test-hana-service`                                                                                                      |
+| Create Service Key           | `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which was created above <br> - SERVICE_KEY is the name of the service key <br> **Example** <br> `cf create-service-key test-hana-service default`                                                                                                                                        |
+| Create User Provided Service | `cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> `{\"user\":\"CUPS_SFLIGHT\",\"password\":\"<Password>\",\"driver\":\"com.sap.db.jdbc.Driver\",\"tags\":[\"hana\"] , \"schema\" : \"SFLIGHT\" }"` |
 
-- Create User Provided Service
+- ```shell
 
-  ```shell
-  cf create-user-provided-service SERVICE_INSTANCE [-p CREDENTIALS] [-l SYSLOG_DRAIN_URL] [-r ROUTE_SERVICE_URL] [ -t TAGS]
   ```
 
-  **where**
-
-  - SERVICE_INSTANCE is the name of service instance which needs to be created
-  - CREDENTIALS is a JSON object, sample JSON as below
-
   ```shell
-  {\"user\":\"CUPS_SFLIGHT\",\"password\":\"<Password>\",\"driver\":\"com.sap.db.jdbc.Driver\",\"tags\":[\"hana\"] , \"schema\" : \"SFLIGHT\" }"
+
   ```
 
 ### HANA CLI Related
