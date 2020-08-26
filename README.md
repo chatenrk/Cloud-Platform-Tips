@@ -34,6 +34,7 @@
 | Open database explorer                                      | `hana-cli opendbx`                                                                                                                                                                                                    |
 | Check status of Hana Database                               | `hana-cli status`                                                                                                                                                                                                     |
 | Connect ServiceKey and service and prepare default-env.json | `hana-cli serviceKey [instance] [key]` <br> **where** <br> - instance is the name of the hana service instance created in cloud platform(via CLI or directly) <br> - key is the service created for the above service |
+| Inspect a table                                             | `hana-cli inspectTable <<Insert Schema Name>> <<Insert Table Name>>`                                                                                                                                                  |
 
 ### Github Related
 
