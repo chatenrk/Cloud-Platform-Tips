@@ -24,28 +24,7 @@
 | Login to cloud foundry | `cf login (or) cf l`                                                                                                                                                                                                                                                                                                                    |
 | List all services      | `cf services (or) cf s`                                                                                                                                                                                                                                                                                                                 |
 | Create service         | `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> **Example** <br> `cf create-service hana hana-shared test-hana-service` |
-
--
-
-- `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]`
-
-  **where**
-
-  - SERVICE refers to service marketplace service
-  - PLAN is the plan relating to service above
-  - SERVICE_INSTANCE is the instance name which would get created on SAP cloud platform
-
-- Create Service Key
-
-  `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]`
-
-  **where**
-
-  - SERVICE_INSTANCE is the name of service instance which was created above
-  - SERVICE_KEY is the name of the service key
-
-  **Example**
-  `cf create-service-key test-hana-service default`
+| Create Service Key     | `cf create-service-key SERVICE_INSTANCE SERVICE_KEY [-c PARAMETERS_AS_JSON]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which was created above <br> - SERVICE_KEY is the name of the service key <br> **Example** <br> `cf create-service-key test-hana-service default`                                   |
 
 - Create User Provided Service
 
