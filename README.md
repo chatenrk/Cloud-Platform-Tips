@@ -29,30 +29,12 @@
 
 ### HANA CLI Related
 
-- HANA CLI Help
-
-  `hana-cli help`
-
-- HANA CLI Connect
-
-  `hana-cli connect`
-
-- Open database explorer
-
-  `hana-cli opendbx`
-
-- Check status of Hana Database
-
-  `hana-cli status`
-
-- Connect ServiceKey and service and prepare default-env.json
-
-  `hana-cli serviceKey [instance] [key]`
-
-  **where**
-
-  - instance is the name of the hana service instance created in cloud platform(via CLI or directly)
-  - key is the service created for the above service
+|Description |Command|
+|HANA CLI Help|`hana-cli help`|
+|HANA CLI Connect|`hana-cli connect`|
+|Open database explorer|`hana-cli opendbx`|
+|Check status of Hana Database|`hana-cli status`|
+|Connect ServiceKey and service and prepare default-env.json|`hana-cli serviceKey [instance] [key]` <br> **where** <br> - instance is the name of the hana service instance created in cloud platform(via CLI or directly) <br> - key is the service created for the above service |
 
 ### Github Related
 
