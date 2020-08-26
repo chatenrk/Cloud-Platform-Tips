@@ -18,6 +18,10 @@
 
 ### CF CLI Related
 
+| Description     | Command                |
+| --------------- | ---------------------- |
+| Help for CF CLI | `cf --help (or) cf -h` |
+
 - Help for CF CLI
 
   `cf --help (or) cf -h`
