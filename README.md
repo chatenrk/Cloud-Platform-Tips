@@ -18,12 +18,13 @@
 
 ### CF CLI Related
 
-| Description            | Command                                                                                                                                                                                                                                                    |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Help for CF CLI        | `cf --help (or) cf -h`                                                                                                                                                                                                                                     |
-| Login to cloud foundry | `cf login (or) cf l`                                                                                                                                                                                                                                       |
-| List all services      | `cf services (or) cf s`                                                                                                                                                                                                                                    |
-| Create service         | `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below |
+| Description                                            | Command                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Help for CF CLI                                        | `cf --help (or) cf -h`                                                                                                                                                                                                                                                      |
+| Login to cloud foundry                                 | `cf login (or) cf l`                                                                                                                                                                                                                                                        |
+| List all services                                      | `cf services (or) cf s`                                                                                                                                                                                                                                                     |
+| Create service                                         | `cf create-service SERVICE PLAN SERVICE_INSTANCE [-b BROKER] [-c PARAMETERS_AS_JSON] [-t TAGS]` <br> **where** <br> - SERVICE_INSTANCE is the name of service instance which needs to be created <br> - CREDENTIALS is a JSON object, sample JSON as below <br> **Example** |
+| `cf create-service hana hana-shared test-hana-service` |
 
 -
 
@@ -34,9 +35,6 @@
   - SERVICE refers to service marketplace service
   - PLAN is the plan relating to service above
   - SERVICE_INSTANCE is the instance name which would get created on SAP cloud platform
-
-  **Example**
-  `cf create-service hana hana-shared test-hana-service`
 
 - Create Service Key
 
