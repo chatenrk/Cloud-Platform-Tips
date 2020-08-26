@@ -49,22 +49,13 @@
 
 ## SQL Commands
 
-| Description      | Command                                                                                                                                               |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Create user      | ` CREATE USER CUPS_SFLIGHT PASSWORD "<Password>" SET PARAMETER CLIENT = '001' SET USERGROUP DEFAULT;`                                                 |
-| Disable password | `ALTER USER CUPS_SFLIGHT DISABLE PASSWORD LIFETIME`                                                                                                   |
-| GRANT            | `GRANT SELECT ON SCHEMA SFLIGHT TO CUPS_SFLIGHT WITH GRANT OPTION;` <br> `GRANT SELECT METADATA ON SCHEMA SFLIGHT to CUPS_SFLIGHT WITH GRANT OPTION;` |
-
-### Grant Role
-
-Grant schema roles to users created
-
-```shell
-CREATE ROLE SFLIGHT_CONTAINER_ACCESS;
-GRANT SELECT, SELECT METADATA ON SCHEMA SFLIGHT TO SFLIGHT_CONTAINER_ACCESS WITH GRANT OPTION;
-GRANT SFLIGHT_CONTAINER_ACCESS TO CUPS_SFLIGHT WITH ADMIN OPTION;
-
-```
+| Description                 | Command                                                                                                                                                                   |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Create user                 | ` CREATE USER CUPS_SFLIGHT PASSWORD "<Password>" SET PARAMETER CLIENT = '001' SET USERGROUP DEFAULT;`                                                                     |
+| Disable password            | `ALTER USER CUPS_SFLIGHT DISABLE PASSWORD LIFETIME`                                                                                                                       |
+| Grant Schema to User        | `GRANT SELECT ON SCHEMA SFLIGHT TO CUPS_SFLIGHT WITH GRANT OPTION;` <br> `GRANT SELECT METADATA ON SCHEMA SFLIGHT to CUPS_SFLIGHT WITH GRANT OPTION;`                     |
+| Create Role                 | `CREATE ROLE SFLIGHT_CONTAINER_ACCESS;`                                                                                                                                   |
+| Grant Schema to Role & User | `GRANT SELECT, SELECT METADATA ON SCHEMA SFLIGHT TO SFLIGHT_CONTAINER_ACCESS WITH GRANT OPTION;` <br> `GRANT SFLIGHT_CONTAINER_ACCESS TO CUPS_SFLIGHT WITH ADMIN OPTION;` |
 
 ## XSA Quick references
 
