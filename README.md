@@ -149,7 +149,7 @@ GRANT SFLIGHT_CONTAINER_ACCESS TO CUPS_SFLIGHT WITH ADMIN OPTION;
 
 Use the below sample code to add a new resource to MTA.YAML. This is helpful to add User provided services to an MTA Application
 
-- Existing Service
+- **Existing Service**
 
 ```shell
   # ------------------------------------------------------------
@@ -160,6 +160,30 @@ Use the below sample code to add a new resource to MTA.YAML. This is helpful to 
       service-name: <name of service existing on cloud platform >
     properties:
       the-service-name: "${service-name}"
+```
+
+### Add UPS to default-env.json
+
+```shell
+"user-provided": [
+            {
+                "label": "user_provided",
+                "name": "CROSS_SCHEMA_SFLIGHT",
+                "tags": [],
+                "instance_name": "CROSS_SCHEMA_SFLIGHT",
+                "binding_name": null,
+                "credentials": {
+                    "password": "HanaRocks01",
+                    "schema": "SFLIGHT",
+                    "tags": [
+                        "hana"
+                    ],
+                    "user": "CUPS_SFLIGHT"
+                },
+                "syslog_drain_url": "",
+                "volume_mounts": []
+            }
+        ]
 ```
 
 ## CF-CLI Tips
