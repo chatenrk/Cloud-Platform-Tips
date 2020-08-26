@@ -7,8 +7,6 @@
   - [HANA CLI Related](#hana-cli-related)
   - [Github Related](#github-related)
 - [SQL Commands](#sql-commands)
-  - [Create User](#create-user)
-  - [Grant Role](#grant-role)
 - [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
@@ -98,6 +96,17 @@ Use the below sample code to add a new resource to MTA.YAML. This is helpful to 
                 "volume_mounts": []
             }
         ]
+```
+
+### Add Service replacements to UPS
+
+```s
+"SERVICE_REPLACEMENTS": [
+        {
+            "key": "ServiceName_1",
+            "service": "CROSS_SCHEMA_SFLIGHT"
+        }
+    ]
 ```
 
 ## CF-CLI Tips
