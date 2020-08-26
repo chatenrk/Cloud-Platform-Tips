@@ -29,7 +29,7 @@
 
 ### HANA CLI Related
 
-|Description |Command|
+| Description | Command |
 |HANA CLI Help|`hana-cli help`|
 |HANA CLI Connect|`hana-cli connect`|
 |Open database explorer|`hana-cli opendbx`|
