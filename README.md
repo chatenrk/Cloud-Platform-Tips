@@ -5,6 +5,7 @@
 - [Cloud Platform Setup](#cloud-platform-setup)
   - [Business Application Studio Setup](#business-application-studio-setup)
   - [Basic NPM Installs](#basic-npm-installs)
+  - [Install and configure cloud connector](#install-and-configure-cloud-connector)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
@@ -71,6 +72,12 @@ Once the above steps are performed, Business application studio is ready for use
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | @sap/cds-dk | The command line client and development toolkit for the SAP Cloud Application Programming Model (CAP). <br> To install run the npm command <br> `npm i -g @sap/cds-dk`                                            |
 | hana-cli    | A developer-centric HANA command line tool, particularly designed to be used when performing local HANA development in non-SAP tooling (like VSCode) <br> To install run the npm command <br> `npm i -g hana-cli` |
+
+### Install and configure cloud connector
+
+#### Prepare environment for Docker Image
+
+:point-right:Create a new Directory and subdirectory called `container-scc/` and `sapdownloads/` respectively
 
 ## Quick Access Commands
 
