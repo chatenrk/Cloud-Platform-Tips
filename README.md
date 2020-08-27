@@ -3,9 +3,6 @@
 **[Table of Contents]**
 
 - [Cloud Platform Setup](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/Cloud%20Platform%20related/readme.md)
-  - [Business Application Studio Setup](#business-application-studio-setup)
-  - [Basic NPM Installs](#basic-npm-installs)
-  - [Install and configure cloud connector](#install-and-configure-cloud-connector)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
