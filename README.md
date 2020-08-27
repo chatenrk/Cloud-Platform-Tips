@@ -29,9 +29,37 @@ Once subscribed, the "Go to Application" link become active. But before launchin
 Jump to the subaccount overview page, and select the "Trust Configuration" item within the "Security" entry in the menu on the left hand side. Select the "sap.default" entry as shown in the screenshot (it may be a different name, but it is usually going to be the only entry to select anyway), and in the following screen, enter your ID - the email address associated with your account - and select the "Show Assignments" button to bring up the current list, and to give you the ability to assign further Role Collections
 
 ![Roles1](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles1.png)
+
 ![Roles2](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles2.png)
+
 ![Roles3](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles3.png)
+
 ![Roles4](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles4.png)
+
+Go back to the App Studio subscription page, and use the "Go to Application" link.
+
+![Create Dev Space](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/create_dev_space.png)
+
+Select the "Create Dev Space" button and should specify a name for your space, and the extensions you want. Give a name to the workspace and select the appropriate options as required
+
+![Create Dev Space 1](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/create_dev_space2.png)
+
+![Create Dev Space 2](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/create_dev_space3.png)
+
+![Create Dev Space 2](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/create_dev_space3.png)
+
+There's one final activity to complete at this stage, and that's to point tge new Dev Space to your CF organization and space.
+
+In the bar at the bottom, there'll be a message along these lines: "The organization and space in Cloud Foundry have not been set". Select this message to initiate a short UI interaction at the top of the screen to allow you to confirm the settings. Specify the following:
+
+| Setting                | Value to set                                                                                                                                                                                                                                                      |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cloud Foundry endpoint | This is the endpoint in the form https://api.cf.<region>.hana.ondemand.com. Refer to the details shown in your Trial Subaccount overview page <br> ![CF End Point](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space.png) |
+
+Email address This is the email address associated with your Cloud Platform account.
+Password This is the password associated with the email address and this account.
+Organization This is the CF organization associated with your trial subaccount. If you need to, check what this is in the Trial Subaccount overview page - it will be a series of hexadecimal values suffixed with 'trial').
+Space This is the space within the organization you just selected. If this is a freshly set up trial account, the name of the space is likely to be "dev".
 
 ## Quick Access Commands
 
