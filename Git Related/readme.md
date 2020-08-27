@@ -10,9 +10,8 @@
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Initialise a local git repository | Create a new directory, open it and perform a <br> `git init` <br> to create a new git repository                                                                                                                |
 | Checkout a repository             | Create a working copy of a local repository by running the command <br> `git clone /path/to/repository` <br> when using a remote server, your command will be <br> `git clone username@host:/path/to/repository` |
-| Add and Commit                    | You can propose changes (add it to the Index) using <br> `git add <filename>` <br> `git add * `                                                                                                                  |
+| Add and Commit                    | You can propose changes (add it to the Index) using <br> `git add <filename>` <br> `git add *`                                                                                                                   |
 
-|
 | Add all modified entries into the git repository | `git add .` |
 | Commit changes | `git commit -m "Commit Message"` |
 | Add remote github repository | `git remote add origin <<insert github repository name here>>` |
