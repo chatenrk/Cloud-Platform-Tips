@@ -18,7 +18,8 @@
 
 ### Business Application Studio Setup
 
-![Test](https://github.com/SAP-samples/cloud-platform-workflow-virtual-event/blob/master/exercises/01/subaccounts.png)
+Login to SAP Cloud Platform trial and navigate to subaccount
+![Subaccount](https://github.com/SAP-samples/cloud-platform-workflow-virtual-event/blob/master/exercises/01/subaccounts.png)
 
 ## Quick Access Commands
 
