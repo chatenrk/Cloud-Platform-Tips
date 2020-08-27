@@ -19,10 +19,19 @@
 ### Business Application Studio Setup
 
 Login to SAP Cloud Platform trial and navigate to subaccount
-![Subaccount]()
+![Subaccount](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/sub_accnt.PNG)
 
 Select the Subscriptions menu item on the left hand side. Find and select the "SAP Business Application Studio" tile and use the "Subscribe" button to create a subscription to it in your account
 ![Subscribe to BAS](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/sub_bas.png)
+
+Once subscribed, the "Go to Application" link become active. But before launching it, ensure that appropriate App Studio roles are available.
+
+Jump to the subaccount overview page, and select the "Trust Configuration" item within the "Security" entry in the menu on the left hand side. Select the "sap.default" entry as shown in the screenshot (it may be a different name, but it is usually going to be the only entry to select anyway), and in the following screen, enter your ID - the email address associated with your account - and select the "Show Assignments" button to bring up the current list, and to give you the ability to assign further Role Collections
+
+![Roles1](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles1.png)
+![Roles2](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles2.png)
+![Roles3](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles3.png)
+![Roles4](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/add_roles4.png)
 
 ## Quick Access Commands
 
