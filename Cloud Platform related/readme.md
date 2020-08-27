@@ -1,9 +1,10 @@
 # SAP Cloud Platform Reference Guide
 
 **[Table of Contents]**
-[Business Application Studio Setup](#business-application-studio-setup)
-[Basic NPM Installs](#basic-npm-installs)
-[Install and configure cloud connector](#install-and-configure-cloud-connector)
+
+- [Business Application Studio Setup](#business-application-studio-setup)
+- [Basic NPM Installs](#basic-npm-installs)
+- [Install and configure cloud connector](#install-and-configure-cloud-connector)
 
 ## Business Application Studio Setup
 
