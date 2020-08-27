@@ -16,3 +16,5 @@
 | List all git branches                            | `git branch -- list`                                           |
 | Create new git branch                            | `git branch <<insert branch name here>>`                       |
 | Checkout to another branch                       | `git checkout <<insert branch name here`                       |
+| Merge changes to another branch                  | `git merge <<insert branch name>>`                             |
+| Check status                                     | `git status` <br>                                              |
