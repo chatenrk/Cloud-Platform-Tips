@@ -4,6 +4,7 @@
 
 - [Cloud Platform Setup](#cloud-platform-setup)
   - [Business Application Studio Setup](#business-application-studio-setup)
+  - [Basic NPM Installs](#basic-npm-installs)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
@@ -63,6 +64,12 @@ In the bar at the bottom, there'll be a message along these lines: "The organiza
 | Space                  | This is the space within the organization <br> ![CF Org Space](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space4.png)                                                                                                    |
 
 Once the above steps are performed, Business application studio is ready for use with the SAP Cloud platform account
+
+### Basic NPM Installs
+
+| NPM Module  | Description                                                                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @sap/cds-dk | The command line client and development toolkit for the SAP Cloud Application Programming Model (CAP). <br> To install run the npm command <br> `npm i -g @sap/cds-dk` |
 
 ## Quick Access Commands
 
