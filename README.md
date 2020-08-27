@@ -2,6 +2,8 @@
 
 **[Table of Contents]**
 
+- [Cloud Platform Setup](#cloud-platform-setup)
+  - [Business Application Studio Setup](#business-application-studio-setup)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
@@ -11,6 +13,12 @@
 - [CF-CLI Tips](#cf-cli-tips)
 - [Bash Terminal Tips](#bash-terminal-tips)
   - [Trunc Script](#trunc-script)
+
+## Cloud Platform Setup
+
+### Business Application Studio Setup
+
+![Test](https://github.com/SAP-samples/cloud-platform-workflow-virtual-event/blob/master/exercises/01/subaccounts.png)
 
 ## Quick Access Commands
 
