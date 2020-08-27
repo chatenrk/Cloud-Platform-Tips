@@ -21,6 +21,8 @@
 Login to SAP Cloud Platform trial and navigate to subaccount
 ![Subaccount](https://github.com/SAP-samples/cloud-platform-workflow-virtual-event/blob/master/exercises/01/subaccounts.png)
 
+Select the Subscriptions menu item on the left hand side. Find and select the "SAP Business Application Studio" tile and use the "Subscribe" button to create a subscription to it in your account
+
 ## Quick Access Commands
 
 ### CF CLI Related
