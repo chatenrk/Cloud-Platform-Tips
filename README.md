@@ -55,11 +55,10 @@ In the bar at the bottom, there'll be a message along these lines: "The organiza
 | Setting                | Value to set                                                                                                                                                                                                                                                      |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cloud Foundry endpoint | This is the endpoint in the form https://api.cf.<region>.hana.ondemand.com. Refer to the details shown in your Trial Subaccount overview page <br> ![CF End Point](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space.png) |
-
-Email address This is the email address associated with your Cloud Platform account.
-Password This is the password associated with the email address and this account.
-Organization This is the CF organization associated with your trial subaccount. If you need to, check what this is in the Trial Subaccount overview page - it will be a series of hexadecimal values suffixed with 'trial').
-Space This is the space within the organization you just selected. If this is a freshly set up trial account, the name of the space is likely to be "dev".
+| Email address          | This is the email address associated with the Cloud Platform account. <br> ![CF Email](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space1.png)                                                                            |
+| Password               | This is the password associated with the email address and this account. <br> ![CF Password](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space2.png)                                                                      |
+| Organization           | This is the CF organization associated with your trial subaccount <br> ![CF Org](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space3.png)                                                                                  |
+| Space                  | This is the space within the organization <br> ![CF Org Space](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/screenshots/set_org_and_space4.png)                                                                                                    |
 
 ## Quick Access Commands
 
