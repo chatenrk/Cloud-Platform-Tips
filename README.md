@@ -2,7 +2,7 @@
 
 **[Table of Contents]**
 
-- [Cloud Platform Setup](#cloud-platform-setup)
+- [Cloud Platform Setup](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/Cloud%20Platform%20related/readme.md)
   - [Business Application Studio Setup](#business-application-studio-setup)
   - [Basic NPM Installs](#basic-npm-installs)
   - [Install and configure cloud connector](#install-and-configure-cloud-connector)
