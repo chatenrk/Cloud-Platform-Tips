@@ -14,3 +14,5 @@
 | Add remote github repository                     | `git remote add origin <<insert github repository name here>>` |
 | Push changes to remote repository                | `git push -u origin master`                                    |
 | List all git branches                            | `git branch -- list`                                           |
+| Create new git branch                            | `git branch <<insert branch name here>>`                       |
+| Checkout to another branch                       | `git checkout <<insert branch name here`                       |
