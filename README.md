@@ -6,7 +6,7 @@
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
-  - [Github Related](#github-related)
+  - [Github Related]()
 - [SQL Commands](#sql-commands)
 - [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
@@ -36,17 +36,6 @@
 | Connect ServiceKey and service and prepare default-env.json | `hana-cli serviceKey [instance] [key]` <br> **where** <br> - instance is the name of the hana service instance created in cloud platform(via CLI or directly) <br> - key is the service created for the above service |
 | Inspect a table                                             | `hana-cli inspectTable <<Insert Schema Name>> <<Insert Table Name>>`                                                                                                                                                  |
 | Generate CDS from existing table                            | `hana-cli inspectTable <<Insert Schema Name>> <<Insert Table Name>> -o cds`                                                                                                                                           |
-
-### Github Related
-
-| Description                                      | Command                                                        |
-| ------------------------------------------------ | -------------------------------------------------------------- |
-| Initialise a local git repository                | `git init`                                                     |
-| Add all modified entries into the git repository | `git add .`                                                    |
-| Commit changes                                   | `git commit -m "Commit Message"`                               |
-| Add remote github repository                     | `git remote add origin <<insert github repository name here>>` |
-| Push changes to remote repository                | `git push -u origin master`                                    |
-| List all git branches                            | `git branch -- list`                                           |
 
 ## SQL Commands
 
