@@ -67,9 +67,10 @@ Once the above steps are performed, Business application studio is ready for use
 
 ### Basic NPM Installs
 
-| NPM Module  | Description                                                                                                                                                            |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| @sap/cds-dk | The command line client and development toolkit for the SAP Cloud Application Programming Model (CAP). <br> To install run the npm command <br> `npm i -g @sap/cds-dk` |
+| NPM Module  | Description                                                                                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @sap/cds-dk | The command line client and development toolkit for the SAP Cloud Application Programming Model (CAP). <br> To install run the npm command <br> `npm i -g @sap/cds-dk`                                           |
+| hana-cli    | A developer-centric HANA command line tool, particularly designed to be used when performing local HANA development in non-SAP tooling (like VSCode) <br> To install run the npm command <br> `npm i -g hana-cli |
 
 ## Quick Access Commands
 
