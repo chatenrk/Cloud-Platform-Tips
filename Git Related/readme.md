@@ -1,8 +1,10 @@
 # Git Reference Guide
 
-**[Table of Contents]**
-
-- [Quick Reference](#quick-reference)
+- [Git Reference Guide](#git-reference-guide)
+  - [Quick Reference](#quick-reference)
+  - [General Information](#general-information)
+    - [Git Workflow](#git-workflow)
+    - [Git Branching](#git-branching)
 
 ## Quick Reference
 
@@ -25,3 +27,7 @@
 
 your local repository consists of three "trees" maintained by git. the first one is your **Working Directory** which holds the actual files. the second one is the **Index** which acts as a staging area and finally the **HEAD** which points to the last commit you've made.
 ![Git Workflow](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Git%20Related/screenshots/git%20workflow.PNG)
+
+### Git Branching
+Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion.
+![Git Branching]()
