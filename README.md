@@ -6,7 +6,7 @@
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
-  - [Github Related](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Git%20Related/readme.md)
+  - [Github Related](https://github.com/chatenrk/Cloud-Platform-Tips/blob/Git%20Related/readme.md)
 - [SQL Commands](#sql-commands)
 - [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
