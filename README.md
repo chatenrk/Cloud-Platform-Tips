@@ -47,6 +47,7 @@
 | Commit changes                                   | `git commit -m "Commit Message"`                               |
 | Add remote github repository                     | `git remote add origin <<insert github repository name here>>` |
 | Push changes to remote repository                | `git push -u origin master`                                    |
+| List all git branches                            | `git branch -- list`                                           |
 
 ## SQL Commands
 
