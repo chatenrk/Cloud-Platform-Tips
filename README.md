@@ -77,7 +77,7 @@ Once the above steps are performed, Business application studio is ready for use
 
 #### Prepare environment for Docker Image
 
-:point-right:Create a new Directory and subdirectory called `container-scc/` and `sapdownloads/` respectively
+:point-right: Create a new Directory and subdirectory called `container-scc/` and `sapdownloads/` respectively
 
 ## Quick Access Commands
 
