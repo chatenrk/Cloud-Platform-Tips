@@ -2,15 +2,15 @@
 
 **[Table of Contents]**
 
-- [Cloud Platform Setup](https://github.com/chatenrk/Cloud-Platform-Tips/blob/master/Cloud%20Platform%20related/readme.md)
+- [Cloud Platform Setup](./Cloud%20Platform%20related/readme.md)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
-  - [Github Related](https://github.com/chatenrk/Cloud-Platform-Tips/blob/Git%20Related/readme.md)
+  - [Github Related](./Git%20Related/readme.md)
 - [SQL Commands](#sql-commands)
 - [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
-- [Bash Terminal Tips](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Bash%20Terminal%20Tips/readme.md)
+- [Bash Terminal Tips](./Bash%20Terminal%20Tips/readme.md)
 
 ## Quick Access Commands
 
