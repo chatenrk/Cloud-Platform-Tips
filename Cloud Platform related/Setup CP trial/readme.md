@@ -1,5 +1,13 @@
 # Setup Cloud Platform Trial Account
 
+- [Setup Cloud Platform Trial Account](#setup-cloud-platform-trial-account)
+  - [Log into the SAP website](#log-into-the-sap-website)
+  - [Register at sap.com](#register-at-sapcom)
+  - [Activate your account](#activate-your-account)
+  - [Log on to SAP Cloud Platform](#log-on-to-sap-cloud-platform)
+  - [Verify your account](#verify-your-account)
+  - [Access the welcome screen](#access-the-welcome-screen)
+  - [Navigate to the Cloud Foundry space](#navigate-to-the-cloud-foundry-space)
 
 ## Log into the SAP website
 Visit https://www.sap.com and click the Log On icon in the upper-right corner.
