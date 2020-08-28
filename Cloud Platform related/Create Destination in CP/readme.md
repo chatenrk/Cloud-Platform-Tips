@@ -4,6 +4,7 @@
   - [Check the data source](#check-the-data-source)
   - [Create a new destination definition](#create-a-new-destination-definition)
   - [Deploy a simple app to test the destination connection](#deploy-a-simple-app-to-test-the-destination-connection)
+  - [Explore the Products entityset](#explore-the-products-entityset)
 
 ## Check the data source
 Before creating the destination, which is effectively a pointer to a data source, it's worth checking that data source manually and directly. First, so you can see for yourself what you're aiming to get to from within the SAP Cloud Platform, and second, so you know what you're looking for when you access that data source indirectly (through the destination).
@@ -68,4 +69,35 @@ Set up two of these (`xsuaa` and `destination`) manually, now, before deploying 
 Navigate to the "dev" space in your Cloud Foundry (CF) organization.
 ![Dev Space](./screenshots/dev-space.png)
 
-Setup the services in Cloud Platform. For reference check this [link](../Setting-up%20Services/readme.md)
+Setup the services in Cloud Platform. For reference check this [link](../Setting-up%20Services/readme.md). Here we are setting up 2 services
+- Authorization & Trust Management(XSUAA). Refer [link](../Setting-up%20Services/readme.md) for details
+- Destination. Refer [link](../Setting-up%20Services/readme.md) for details
+
+Next to deploy the app, navigate to dev space and select the "Applications" menu item and use the "Deploy Application" button. For the "File Location", browse to and select the app.zip archive that you previously downloaded. Ensure that the "Use Manifest" checkbox is selected, then browse to and select the manifest.yml file that you also previously downloaded for the "Manifest Location". Then use the "Deploy" button
+
+![Deploy App](./screenshots/deploy-app1.png)
+
+![Deploy App2](./screenshots/deploy-app2.png)
+
+![Deploy App3](./screenshots/deploy-app3.png)
+
+![Deploy App4](./screenshots/deploy-app4.png)
+
+Select its name ("my-dest-test") and select the URL in the "Application Routes" section of the app's "Overview" page; the URL will contain a random string in the first part, to ensure that each of your apps deployed have unique hostnames
+
+![Deploy App5](./screenshots/deploy-app5.png)
+
+After authenticating with your trial user email address and password, you'll be presented with the resource you saw at the start of this exercise. But this time, you're accessing it through the SAP Cloud Platform, via the Connectivity service and a destination definition, instead of directly. Moreover, if you've set up the Cloud Connector, this access is going through that too.
+
+![Deploy App6](./screenshots/deploy-app6.png)
+
+## Explore the Products entityset
+You'll be using data from the Products entityset in the OData service you've just exposed, so use this step to explore the data in that entityset, so you're at least a little bit familiar with it
+
+![Products Entity](./screenshots/entity-products.png)
+
+Explore the data that is returned - you should see a list of products, with the sort of properties you'd expect from a product database, such as an ID, name, description, information about stock quantity, and so on.
+
+If you prefer looking at JSON rather than XML, append the query parameter $format=json to the URL
+![Products Entity 1](./screenshots/entity-products2.png)
+
