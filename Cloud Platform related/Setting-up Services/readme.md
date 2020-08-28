@@ -13,4 +13,4 @@ Select the service from the Service Marketplace
 ![Service Marketplace 2](./screenshots/service-marketplace2.png)
 
 Click the new instance button
-![Service Marketplace 3](./screenshots/service-marketplace3.png)
+![Service Marketplace 3](./screenshots/copy%20-service-marketplace3.png)
