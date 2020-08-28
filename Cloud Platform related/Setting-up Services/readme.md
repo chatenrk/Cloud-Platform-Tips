@@ -36,7 +36,6 @@ To create an Authorization & Trust Management service select the same in Service
 ### Destination
 To create a Destination service select the same in Service Marketplace and create a new instance as show below
 ![Destination](./screenshots/Destination/service.png)
-![Destination 1](./screenshots/Destination/service1.png)
 ![Destination 2](./screenshots/Destination/service2.png)
 ![Destination 3](./screenshots/Destination/service3.png)
 ![Destination 4](./screenshots/Destination/service4.png)
