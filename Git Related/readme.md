@@ -11,7 +11,7 @@
 | Description                       | Command                                                                                                                                                                                                                                                                                                            |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Initialise a local git repository | Create a new directory, open it and perform a <br> `git init` <br> to create a new git repository                                                                                                                                                                                                                  |
-| Check status                      | `git status` <br><br> ![Git Status](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Git%20Related/screenshots/git%20status.PNG) <br>                                                                                                                                                               |
+| Check status                      | `git status` <br><br> ![Git Status](./screenshots/git%20status.PNG) <br>                                                                                                                                                                                                                                           |
 | Checkout a repository             | Create a working copy of a local repository by running the command <br> `git clone /path/to/repository` <br> when using a remote server, your command will be <br> `git clone username@host:/path/to/repository`                                                                                                   |
 | Add and Commit                    | You can propose changes (add it to the Index) using <br> `git add <filename>` <br> `git add *` <br> This is the first step in the basic git workflow. To actually commit these changes use <br> `git commit -m "Commit message"` <br> Now the file is committed to the HEAD, but not in your remote repository yet |
 | Add remote github repository      | `git remote add origin <<insert github repository name here>>`                                                                                                                                                                                                                                                     |
@@ -30,8 +30,8 @@
 ### Git Workflow
 
 your local repository consists of three "trees" maintained by git. the first one is your **Working Directory** which holds the actual files. the second one is the **Index** which acts as a staging area and finally the **HEAD** which points to the last commit you've made.
-![Git Workflow](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Git%20Related/screenshots/git%20workflow.PNG)
+![Git Workflow](./screenshots/git%20workflow.PNG)
 
 ### Git Branching
 Branches are used to develop features isolated from each other. The master branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion.
-![Git Branching](https://github.com/chatenrk/Cloud-Platform-Tips/blob/cleanUpGit/Git%20Related/screenshots/git%20branching.PNG)
+![Git Branching](./screenshots/git%20branching.PNG)
