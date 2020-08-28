@@ -24,7 +24,7 @@
 ## Build the Docker image
 -  Build the image, and after that you can instantiate a container from that image. In the **container-scc** directory (where the Dockerfile file is located), build the image as follows in this repository
 ![Build Docker Image](./screenshots/build-docker-image.png)
-<br>
+
 ![Build Docker Image 1](screenshots/build-docker-image1.png)
 
 - On successful completion the cloud connector should be installed.<br>
