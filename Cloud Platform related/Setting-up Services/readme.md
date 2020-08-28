@@ -1,6 +1,10 @@
 # Cloud Platform Services
 
-### Procedure to setup Cloud Platform Service
+- [Cloud Platform Services](#cloud-platform-services)
+  - [Procedure to setup Cloud Platform Service](#procedure-to-setup-cloud-platform-service)
+
+
+## Procedure to setup Cloud Platform Service
 Select the "Service Marketplace" menu item (within the "Services" item in the menu on the left hand side)
 
 ![Service Marketplace](./screenshots/service-marketplace.png)
