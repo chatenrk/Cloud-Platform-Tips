@@ -5,6 +5,7 @@
   - [Service Instance Parameters](#service-instance-parameters)
   - [Services Setup](#services-setup)
     - [Authorization & Trust Management](#authorization--trust-management)
+    - [Destination](#destination)
 
 ## Procedure to setup Cloud Platform Service
 Select the "Service Marketplace" menu item (within the "Services" item in the menu on the left hand side)
