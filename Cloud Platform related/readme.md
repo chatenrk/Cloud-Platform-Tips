@@ -11,7 +11,7 @@
 ## Business Application Studio Setup
 
 Login to SAP Cloud Platform trial and navigate to subaccount
-![Subaccount](./screenshots/sub_accnt.png)
+![Subaccount](./screenshots/sub_accnt.PNG)
 
 Select the Subscriptions menu item on the left hand side. Find and select the "SAP Business Application Studio" tile and use the "Subscribe" button to create a subscription to it in your account
 ![Subscribe to BAS](./screenshots/sub_bas.png)
