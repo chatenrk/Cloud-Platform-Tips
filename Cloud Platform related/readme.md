@@ -3,6 +3,7 @@
 **[Table of Contents]**
 
 - [SAP Cloud Platform Reference Guide](#sap-cloud-platform-reference-guide)
+  - [Setup Cloud Platform Trial Account](./Setup%20CP%20trial/readme.md)
   - [Important Github Repositories](#important-github-repositories)
   - [Basic NPM Installs](#basic-npm-installs)
   - [Create account on ES5 System](#create-account-on-es5-system)
