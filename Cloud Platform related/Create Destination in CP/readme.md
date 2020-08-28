@@ -89,7 +89,7 @@ Select its name ("my-dest-test") and select the URL in the "Application Routes" 
 
 After authenticating with your trial user email address and password, you'll be presented with the resource you saw at the start of this exercise. But this time, you're accessing it through the SAP Cloud Platform, via the Connectivity service and a destination definition, instead of directly. Moreover, if you've set up the Cloud Connector, this access is going through that too.
 
-![Deploy App6](./screenshots/deploy-app6.png)
+![Deploy App6](./screenshots/copy-deploy-app6.png)
 
 ## Explore the Products entityset
 You'll be using data from the Products entityset in the OData service you've just exposed, so use this step to explore the data in that entityset, so you're at least a little bit familiar with it
