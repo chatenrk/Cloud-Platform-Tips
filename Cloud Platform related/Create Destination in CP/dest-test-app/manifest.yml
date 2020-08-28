@@ -1,0 +1,11 @@
+---
+applications:
+  - name: my-dest-test
+    random-route: true
+    buildpacks:
+      - nodejs_buildpack
+    memory: 128M
+    services:
+      - test-xsuaa
+      - default_connectivity
+      - test-destination
