@@ -4,9 +4,9 @@
 
 - [SAP Cloud Platform Reference Guide](#sap-cloud-platform-reference-guide)
   - [Important Github Repositories](#important-github-repositories)
-  - [Business Application Studio Setup](./Business%20Application%20Studio%20Related/readme.md)
-  - [Create account on ES5 System](#create-account-on-es5-system)
   - [Basic NPM Installs](#basic-npm-installs)
+  - [Create account on ES5 System](#create-account-on-es5-system)
+  - [Business Application Studio Setup](./Business%20Application%20Studio%20Related/readme.md)
   - [Install and configure cloud connector](./Docker%20for%20Cloud%20Connecter%20Related/readme.md)
   - [Create Destination in cloud platform](./Create%20Destination%20in%20CP/readme.md)
 
