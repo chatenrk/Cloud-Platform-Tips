@@ -53,20 +53,4 @@ Click on Log on to log on to your verified account.
 ![Link 10](https://developers.sap.com/tutorials/hcp-create-trial-account/_jcr_content.github-proxy.1594886410.file/logon-again.png)
 
 You will see one main button on the welcome screen of the SAP Cloud Platform Cockpit. Click on Enter Your Trial Account to navigate to your global account.
-
-![Link 11](https://developers.sap.com/tutorials/hcp-create-trial-account/_jcr_content.github-proxy.1594886410.file/enter-trial.png)
-
-## Navigate to the Cloud Foundry space
-Here, you can now create a subaccount which lives in a geographic region. Choose a region from this list and click Create Account to trigger the provisioning process.
-
-![Link 12](https://developers.sap.com/tutorials/hcp-create-trial-account/_jcr_content.github-proxy.1594886410.file/select-region.png)
-
-You will then see a dialog box while the account is set up. When complete, click Continue to close to popup and to navigate to the new account
-
-The global trial account contains one subaccount and space. Navigate to subaccount by clicking on the tile named trial (this name may vary if you created the subaccount manually)
-
-![Link 13](https://developers.sap.com/tutorials/hcp-create-trial-account/_jcr_content.github-proxy.1594886410.file/trial-created.png)
-
-To get to the space, in which your applications and services live, click on the dev space.
-![Link 14](https://developers.sap.com/tutorials/hcp-create-trial-account/_jcr_content.github-proxy.1594886410.file/sub-account.png)
-
+![Trial Creation](Create%20New%20Cloud%20Platform%20Account.gif)
