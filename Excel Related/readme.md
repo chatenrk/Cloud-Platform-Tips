@@ -1,0 +1,8 @@
+# Excel Tips useful for Cloud Platform
+
+
+## Generate UUID in excel for CAPM
+Use the following formula to generate a UUID for CAPM
+```sh
+=CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),"-",DEC2HEX(RANDBETWEEN(0,42949),4),"-",DEC2HEX(RANDBETWEEN(0,42949),4),"-",DEC2HEX(RANDBETWEEN(0,42949),4),"-",DEC2HEX(RANDBETWEEN(0,4294967295),8),DEC2HEX(RANDBETWEEN(0,42949),4))
+```
