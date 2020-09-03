@@ -10,6 +10,7 @@
 - [SQL Commands](#sql-commands)
 - [XSA Quick references](#xsa-quick-references)
 - [CF-CLI Tips](#cf-cli-tips)
+- [Excel Related Tips](Excel%20Related/readme.md)
 - [Bash Terminal Tips](./Bash%20Terminal%20Tips/readme.md)
 
 ## Quick Access Commands
