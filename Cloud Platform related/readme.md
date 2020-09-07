@@ -33,3 +33,8 @@ Ensure that NPM Config List doesnt have a SAP registry entry
 ![npm-registry 1](screenshots/sap-npm-registry.png)
 
 ![npm-registry 2](screenshots/sap-npm-registry1.png)
+
+## Blogs for reference
+| Blog                                     | Link                                                                                                |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Import large data into Hana using python | https://blogs.sap.com/2020/09/03/import-large-flat-files-into-sap-hana-using-python-and-sqlalchemy/ |
