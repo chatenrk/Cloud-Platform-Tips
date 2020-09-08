@@ -3,6 +3,7 @@
 **[Table of Contents]**
 
 - [Cloud Platform Related](./Cloud%20Platform%20related/readme.md)
+- [Fiori Related](Fiori%20Related/readme.md)
 - [Quick Access Commands](#quick-access-commands)
   - [CF CLI Related](#cf-cli-related)
   - [HANA CLI Related](#hana-cli-related)
