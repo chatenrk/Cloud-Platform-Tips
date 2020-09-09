@@ -1,5 +1,23 @@
 # Python related tips
 
+
+- [Python related tips](#python-related-tips)
+  - [Reference Blogs](#reference-blogs)
+  - [Install Python on Windows](#install-python-on-windows)
+    - [What is Python](#what-is-python)
+    - [Confirm that Python is installed](#confirm-that-python-is-installed)
+    - [Install Python](#install-python)
+  - [Install PIP on Windows](#install-pip-on-windows)
+    - [Check if Pip is Already Installed](#check-if-pip-is-already-installed)
+    - [Install Pip](#install-pip)
+
+
+## Reference Blogs
+| Blog                                        | Link                                                          |
+| ------------------------------------------- | ------------------------------------------------------------- |
+| Connect Using the SAP HANA Python Interface | https://developers.sap.com/tutorials/hana-clients-python.html |
+
+
 ## Install Python on Windows
 ### What is Python
 Python is an open-source programming language that allows you to run applications and plugins from a wide variety of 3rd party sources (or even applications you develop yourself) on your server. Python is cross-platform, meaning that you can run it on a number of different operating systems, including Windows VPS Server
