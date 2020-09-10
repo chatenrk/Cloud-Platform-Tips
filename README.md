@@ -15,6 +15,12 @@
 - [Python Related Tips](Python%20Related%20Tips/readme.md)
 - [Bash Terminal Tips](./Bash%20Terminal%20Tips/readme.md)
 
+
+## Blogs to explore
+| Name                                                                                    | Link                                                                                                                      |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Achieve Continuous Integration and Delivery using DevOps services in SAP Cloud Platform | https://blogs.sap.com/2020/09/07/achieve-continuous-integration-and-delivery-using-devops-services-in-sap-cloud-platform/ |  | Start your free trial for SAP Cloud Platform Launchpad | https://blogs.sap.com/2020/09/08/start-your-free-trial-for-sap-cloud-platform-launchpad/ |
+| Calling External API In Custom Task UI of Workflow in Cloud Foundry                     | https://blogs.sap.com/2020/09/08/calling-external-api-in-custom-task-ui-of-workflow-in-cloud-foundry/                     |
 ## Quick Access Commands
 
 ### CF CLI Related
