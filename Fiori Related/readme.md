@@ -13,6 +13,7 @@
 | List report via fiori tools                              | https://developers.sap.com/group.fiori-tools-lrop.html                                     |
 | Getting started with Fiori Elements                      | https://www.youtube.com/playlist?list=PLo17W6sWsxWP4RMYXd7l824ss5KriAbwm                   |
 | Developing a Fiori elements app with CAP and Fiori Tools | https://blogs.sap.com/2020/09/06/developing-a-fiori-elements-app-with-cap-and-fiori-tools/ |
+|SAP Fiori for SAP S/4HANA – Overview of tools for maintaining custom launchpad content and layout|https://blogs.sap.com/2020/09/11/sap-fiori-for-sap-s-4hana-overview-of-tools-for-maintaining-custom-launchpad-content-and-layout/|
 
 ## NPM Modules
 | Module Name              | npm path                               |
